@@ -1,0 +1,6 @@
+[D-BUS Service]
+Name=com.example.SendDeniedByNonexistentAppArmorLabel
+Exec=/bin/false SendDeniedByNonexistentAppArmorLabel
+SystemdService=dbus-com.example.SendDeniedByNonexistentAppArmorLabel.service
+# This label is not defined in any AppArmor profile
+AssumedAppArmorLabel=/home/shin/dbus-commonapi/dbus-1.13.12/test/test-apparmor-activation-com.example.SendDeniedByNonexistentAppArmorLabel

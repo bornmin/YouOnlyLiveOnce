@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>CustomText.qml</file>
+        <file>image/icons8-circled-play-96.png</file>
+        <file>image/icons8-pause-button-96.png</file>
+        <file>screen1.qml</file>
+        <file>screen2.qml</file>
+        <file>listInfo.qml</file>
+        <file>deleteList.qml</file>
+        <file>image/scrollbarimage.png</file>
+        <file>timer.qml</file>
+        <file>CustomTwoButtonPopup.qml</file>
+        <file>style/teststyle.qml</file>
+        <file>applyQmlStyle.qml</file>
+        <file>style/qmldir</file>
+        <file>anchors.qml</file>
+    </qresource>
+</RCC>

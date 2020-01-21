@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuiteNoUser
+Exec=/home/shin/dbus-commonapi/dbus-1.13.12/test/test-service

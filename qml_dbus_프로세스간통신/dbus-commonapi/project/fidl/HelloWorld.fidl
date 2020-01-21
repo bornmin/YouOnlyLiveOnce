@@ -1,0 +1,62 @@
+package commonapi
+  
+interface HelloWorld {
+  version {major 1 minor 0}
+
+  enumeration testEnum{
+     TEST_FIRST
+     TEST_SECOND
+     TEST_THIRD
+  }
+
+  struct testStruct {
+      Int32 code      
+      String id
+  }
+  method sayHello {
+    in {
+      String name
+    }
+    out {
+      String message
+    }
+  }
+  method intDataMethod{
+    in {
+      Int32 parameter
+    }
+    out {
+      Int32 output
+    }
+  }
+  method enumMethod{
+     in {
+        testEnum testEnumParameter 
+     } 
+     out {
+         Int32 output
+     }
+  }
+ method structInMethod{
+    in {
+      testStruct structParameter
+    }
+    out {
+      Int32 output
+    }
+  }
+ method structOutMethod{
+    in {
+      Int32 input 
+    }
+    out {
+      testStruct structParameter
+    }
+  }
+ broadcast enumBroadCastMethod{
+    out{
+      testEnum outputEnum
+    }
+
+  }
+} 

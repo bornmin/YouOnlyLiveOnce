@@ -1,0 +1,6 @@
+VSOMEIP_CONFIGURATION_FILE=../json/vsomeip_client.json VSOMEIP_APPLICATION_NAME=service-sample ./HelloWorldClient
+
+S
+
+
+VSOMEIP_CONFIGURATION_FILE=../json/vsomeip_server.json VSOMEIP_APPLICATION_NAME=service-sample ./HelloWorldService

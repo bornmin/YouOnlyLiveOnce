@@ -1,0 +1,12 @@
+<node name="/ccos/core/vrttsipc">
+  <interface name="ccos.core.vrttsipc">
+    <method name="proxySendMessage">
+        <arg name="msgId" direction="in" type ="s"/>
+        <arg name="message" direction="in" type ="s"/>
+    </method>
+    <signal name="stubSendMessage">
+        <arg name="msgId" type ="s"/>
+        <arg name="message" type ="s"/>
+    </signal>
+  </interface>
+</node>
